@@ -18,7 +18,7 @@ extension Snapshotting where Value == UIViewController, Format == UIImage {
   public static func image(
     on config: ViewImageConfig,
     precision: Float = 1,
-    subpixelThreshold: UInt8 = 0,
+    subpixelThreshold: UInt8 = 1,
     size: CGSize? = nil,
     traits: UITraitCollection = .init()
     )
